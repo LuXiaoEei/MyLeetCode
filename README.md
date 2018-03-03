@@ -1,6 +1,8 @@
-# Myleetcode
+# MyLeetCode
 
 记录自己的leetcode脚印 基于python
+
+自己与自己共勉！
 
 ## 2018.3.3
 
