@@ -15,7 +15,7 @@
 
 ## 2018.3.4
 
-7. Palindrome Number
-8. Container With Most Water
-9. Integer to Roman
-10. 3Sum
+7. Palindrome Number 【easy】
+8. Container With Most Water 【median】
+9. Integer to Roman 【median】
+10. 3Sum 【median】
