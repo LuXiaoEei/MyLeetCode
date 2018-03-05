@@ -1,0 +1,60 @@
+# 4Sum
+
+从给定的数组中寻找出所有和是target的四个数字的组合
+
+```
+For example, given array S = [1, 0, -1, 0, -2, 2], and target = 0.
+
+A solution set is:
+[
+  [-1,  0, 0, 1],
+  [-2, -1, 1, 2],
+  [-2,  0, 0, 2]
+]
+```
+
+显示排序，固定第一和第二的位置，第三个位置，第四个位置，起初取值为第二个位置+1，len（nums）-1,然后依次向内缩小，为了不重复，需要加入一些机制：
+比如第一个位置，第二个位置向前移动一步之后，值没有改变，则直接continue，如果一旦和等于target之后，不能直接break，因为可能存在0，所以需要继续
+判断，为了防止重复，需要记录，这里用了list记录，其实用dict应该快点吧？
+
+```py
+class Solution:
+    def fourSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        if len(nums)<4:
+            return []
+        if len(nums)==4:
+            if sum(nums)==target:
+                return [nums]
+            else:
+                return []
+                
+        nums.sort()
+        Res=[]
+        for i in range(len(nums)-3):
+            if i>0 and nums[i]==nums[i-1]:
+                continue
+            for j in range(i+1,len(nums)-2):
+                if j>i+1 and nums[j]==nums[j-1]:
+                    continue
+                k=j+1
+                l=len(nums)-1
+                record=[]
+                while k<l:                    
+                    Sum=nums[i]+nums[j]+nums[k]+nums[l]
+                    if Sum==target:
+                        if nums[k] not in record:
+                            Res.append([nums[i],nums[j],nums[k],nums[l]])
+                            record.extend([nums[k],nums[l]])
+                        k=k+1
+                        l=l-1                        
+                    elif Sum<target:
+                        k=k+1
+                    else:
+                        l=l-1 
+        return Res
+```
