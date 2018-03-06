@@ -30,4 +30,10 @@
 
 ## 2018.3.6
 
-16
+16. Roman to Integer 【easy】 
+17. Longest Common Prefix 【easy】
+18. Valid Parentheses 【median】
+19. Merge Two Sorted Lists 【easy】
+20. Generate Parentheses 【easy】
+21. Merge k Sorted Lists 【median】
+22. Swap Nodes in Pairs 【median】
