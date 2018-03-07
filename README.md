@@ -11,7 +11,7 @@
 3. Longest-Palindromic-Substring 【median】
 4. ZigZag-Conversion 【median】
 5. Reverse-Integer 【easy】
-6. Median of Two Sorted Arrays【hard】
+6. Median of Two Sorted Arrays 【hard】
 
 ## 2018.3.4
 
@@ -37,3 +37,10 @@
 20. Generate Parentheses 【easy】
 21. Merge k Sorted Lists 【median】
 22. Swap Nodes in Pairs 【median】
+
+## 2018.3.7
+
+23. Divide Two Integers 【median】
+24. Substring with Concatenation of All Words 【hard】
+25. Next Permutation 【median】
+
