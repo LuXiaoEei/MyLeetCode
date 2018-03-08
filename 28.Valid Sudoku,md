@@ -1,0 +1,32 @@
+# Valid Sudoku
+
+对于给定的一数独板，判断是否是一个合理的板
+
+这个题就是判断每一行，每一列，每一块是否有重复的数字，用在取出相应模块之后，用数字的集合长度和原始长度对比即可
+
+```py
+class Solution:
+    def isValidSudoku(self, board):
+        """
+        :type board: List[List[str]]
+        :rtype: bool
+        """
+        def judge(nums):
+            tmp=[int(x) for x in nums if x!='.']
+            return len(tmp)==len(set(tmp))
+        
+        for x in board:
+            if not judge(x):
+                return False
+        
+        for index in range(9):
+            if not judge([x[index] for x in board]):
+                return False
+        
+        for i in [0,3,6]:
+            for j in [0,3,6]:
+                tmp=[y[j:j+3] for y in board][i:i+3]
+                if not judge([y for x in tmp for y in x]):
+                    return False
+        return True
+```
