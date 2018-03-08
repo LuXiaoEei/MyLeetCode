@@ -46,9 +46,9 @@
 
 ## 2018.3.8
 
-26. Search in Rotated Sorted Array
-27. Search for a Range
-28. Valid Sudoku
-29. Combination Sum
-30. Combination Sum II
-31. Multiply Strings
+26. Search in Rotated Sorted Array 【median】
+27. Search for a Range 【median】
+28. Valid Sudoku 【median】
+29. Combination Sum 【median】
+30. Combination Sum II 【median】
+31. Multiply Strings 【median】
