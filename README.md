@@ -44,3 +44,11 @@
 24. Substring with Concatenation of All Words 【hard】
 25. Next Permutation 【median】
 
+## 2018.3.8
+
+26. Search in Rotated Sorted Array
+27. Search for a Range
+28. Valid Sudoku
+29. Combination Sum
+30. Combination Sum II
+31. Multiply Strings
