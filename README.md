@@ -52,3 +52,13 @@
 29. Combination Sum 【median】
 30. Combination Sum II 【median】
 31. Multiply Strings 【median】
+
+## 2018.3.9
+
+32. Permutations 【median】
+33. Permutations II 【median】 
+34. Rotate Image 【median】
+35. Group Anagrams 【median】	
+36. Pow(x, n) 【median】
+37. N-Queens 【hard】
+38. N-Queens II 【hard】
