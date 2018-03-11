@@ -1,0 +1,36 @@
+# Permutation Sequence
+1,2....n包含n！个全排列，返回第k个
+
+```
+We get the following sequence (ie, for n = 3):
+1."123"
+2."132"
+3."213"
+4."231"
+5."312"
+6."321"
+```
+从高位逐个判断，第i个位置确定后，剩下还有（n-i-1）!的可能，用余数和商来判别，k=k-1让k从第0开始，方便写逻辑
+
+
+```py
+class Solution:
+    def getPermutation(self, n, k):
+        """
+        :type n: int
+        :type k: int
+        :rtype: str
+        """
+        k-=1
+        res=[]
+        cand=list(range(1,n+1))
+        while k%math.factorial(len(cand)-1)!=0 or k//math.factorial(len(cand)-1)!=0:
+            tmp=k//math.factorial(len(cand)-1)
+            res.append(cand[tmp])
+            k=k%math.factorial(len(cand)-1)
+            cand.pop(tmp)          
+        if len(cand)>0:
+            res.extend(cand)
+        return ''.join([str(x) for x in res])
+            
+```
