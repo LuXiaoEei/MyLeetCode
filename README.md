@@ -65,3 +65,10 @@
 39. Spiral Matrix 【median】
 40. Jump Game 【median】
 41. Merge Intervals 【median】
+
+## 2018.3.11
+
+42. Spiral Matrix II 【median】
+43. Permutation Sequence 【median】
+45. Rotate List 【median】
+
