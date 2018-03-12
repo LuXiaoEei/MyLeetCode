@@ -74,10 +74,10 @@
 
 ## 2018.3.12
 
-45. Remove Duplicates from Sorted Array
-46. Remove Element 
-47.	Implement strStr()  
-48. Search Insert Position  
-49. Unique Paths 
-50. Unique Paths II 
-51. Minimum Path Sum
+45. Remove Duplicates from Sorted Array 【easy】
+46. Remove Element 【easy】 
+47.	Implement strStr() 【easy】  
+48. Search Insert Position 【easy】  
+49. Unique Paths 【median】 
+50. Unique Paths II 【median】 
+51. Minimum Path Sum 【median】
