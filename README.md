@@ -70,5 +70,14 @@
 
 42. Spiral Matrix II 【median】
 43. Permutation Sequence 【median】
-45. Rotate List 【median】
+44. Rotate List 【median】
 
+## 2018.3.12
+
+45. Remove Duplicates from Sorted Array
+46. Remove Element 
+47.	Implement strStr()  
+48. Search Insert Position  
+49. Unique Paths 
+50. Unique Paths II 
+51. Minimum Path Sum
