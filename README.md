@@ -36,7 +36,7 @@
 19. Merge Two Sorted Lists 【easy】
 20. Generate Parentheses 【easy】
 21. Merge k Sorted Lists 【median】
-22. Swap Nodes in Pairs 【medi
+22. Swap Nodes in Pairs 【median】
 
 ## 2018.3.7
 
@@ -81,3 +81,11 @@
 49. Unique Paths 【median】 
 50. Unique Paths II 【median】 
 51. Minimum Path Sum 【median】
+
+## 2018.3.13
+
+52. Simplify Path 【median】
+53. Set Matrix Zeroes 【median】 
+54. Search a 2D Matrix 【median】
+55. Search a 2D Matrix II 【median】
+56. Count and Say 【easy】
