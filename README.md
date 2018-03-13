@@ -81,13 +81,6 @@
 49. Unique Paths 【median】 
 50. Unique Paths II 【median】 
 51. Minimum Path Sum 【median】
-3333
-333
-
-333
-
-
-333
 
 ## 2018.3.13
 
