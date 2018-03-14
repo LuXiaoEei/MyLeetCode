@@ -89,3 +89,10 @@
 54. Search a 2D Matrix 【median】
 55. Search a 2D Matrix II 【median】
 56. Count and Say 【easy】
+
+## 2018.3.14
+
+57. Sort Colors 【median】
+58. Combinations 【median】
+59. Subsets 【median】
+60. Word Search 【median】
