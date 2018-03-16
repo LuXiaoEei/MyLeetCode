@@ -106,8 +106,8 @@
 
 ## 2018.3.15
 
-65. Partition List 
-66. Gray Code
-67. Subsets II
-68. Decode Ways
-69. Maximum Subarray 
+65. Partition List 【median】 
+66. Gray Code 【median】
+67. Subsets II 【median】
+68. Decode Ways 【median】
+69. Maximum Subarray 【easy】
