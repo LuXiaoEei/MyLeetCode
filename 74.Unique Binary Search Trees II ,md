@@ -1,0 +1,53 @@
+# Unique Binary Search Trees II   
+
+对于给定的数字n，返回1,2...n这n个数字构成的所有的二叉搜索树
+
+
+```
+For example,
+Given n = 3, your program should return all 5 unique BST's shown below.
+
+   1         3     3      2      1
+    \       /     /      / \      \
+     3     2     1      1   3      2
+    /     /       \                 \
+   2     1         2                 3
+```
+
+分而治之，根据一个根节点可以将数组分为左右两部分，对应左右子树的元素，用这些元素，左右子树可以有多种组成，然后分别遍历出所有的组成，
+分别接上根节点的左右两边，对于某一边，也可以通过这个方法继续分，知道是None，返回[None]
+
+```py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def generateTrees(self, n):
+        """
+        :type n: int
+        :rtype: List[TreeNode]
+        """            
+        def paste(nums):
+            if len(nums)==0:
+                return [None]
+            # if len(nums)==1:
+            #     return [TreeNode(nums[0])]
+            res=[]
+            for i in range(len(nums)):
+                x1=nums[:i]
+                x2=nums[i+1:]
+                tree1=paste(x1)
+                tree2=paste(x2)
+                for x in tree1:
+                    for y in tree2:
+                        root= TreeNode(nums[i])
+                        root.left=x
+                        root.right=y
+                        res.append(root)
+            return res
+        return paste(list(range(1,n+1))) if n>0 else []
+```
