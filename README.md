@@ -120,3 +120,15 @@
 73. Unique Binary Search Trees 【easy】
 74. Unique Binary Search Trees II 【median】
 75.	Restore IP Addresses 【median】
+
+## 2018.3.17
+
+76. Length of Last Word 【easy】
+77. Plus One 【easy】
+78. Add Binary 【easy】
+79. Sqrt(x) 【easy】  
+80. Climbing Stairs 【easy】
+81. Merge Sorted Array 【easy】
+82. Validate Binary Search Tree 【median】
+83. Same Tree 【easy】
+84. Binary Tree Level Order Traversal 【median】 
