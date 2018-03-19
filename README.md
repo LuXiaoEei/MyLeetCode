@@ -135,9 +135,9 @@
 
 ## 2018.3.17
 
-85. Binary Tree Zigzag Level Order Traversal
-86. Construct Binary Tree from Preorder and Inorder Traversal
-87. Construct Binary Tree from Inorder and Postorder Traversal 
-88. Convert Sorted List to Binary Search Tree
-89. Path Sum
-90. Path Sum II
+85. Binary Tree Zigzag Level Order Traversal 【median】
+86. Construct Binary Tree from Preorder and Inorder Traversal 【median】
+87. Construct Binary Tree from Inorder and Postorder Traversal 【median】 
+88. Convert Sorted List to Binary Search Tree 【median】
+89. Path Sum 【easy】
+90. Path Sum II 【median】
