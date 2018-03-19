@@ -132,3 +132,12 @@
 82. Validate Binary Search Tree 【median】
 83. Same Tree 【easy】
 84. Binary Tree Level Order Traversal 【median】 
+
+## 2018.3.17
+
+85. Binary Tree Zigzag Level Order Traversal
+86. Construct Binary Tree from Preorder and Inorder Traversal
+87. Construct Binary Tree from Inorder and Postorder Traversal 
+88. Convert Sorted List to Binary Search Tree
+89. Path Sum
+90. Path Sum II
