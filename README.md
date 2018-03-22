@@ -161,3 +161,13 @@
 102. Clone Graph 【median】
 103. Gas Station 【median】
 104. Single Number 【easy】
+
+## 2018.3.19
+
+105. Single Number II 【median】
+106. Copy List with Random Pointer 【median】
+107. Word Break 【median】
+108. Linked List Cycle 【easy】
+109. Linked List Cycle II 【median】
+110. Reorder List 【median】
+111. Binary Tree Preorder Traversal 【median】
