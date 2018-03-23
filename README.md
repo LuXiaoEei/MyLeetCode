@@ -104,7 +104,7 @@
 63. Remove Duplicates from Sorted List II 【median】
 64. Remove Duplicates from Sorted List 【easy】
 
-## 2018.3.15
+## 2018.3.16
 
 65. Partition List 【median】 
 66. Gray Code 【median】
@@ -112,7 +112,7 @@
 68. Decode Ways 【median】
 69. Maximum Subarray 【easy】
 
-## 2018.3.16
+## 2018.3.17
 
 70. Reverse Linked List 【easy】
 71. Reverse Linked List II 【median】
@@ -121,7 +121,7 @@
 74. Unique Binary Search Trees II 【median】
 75.	Restore IP Addresses 【median】
 
-## 2018.3.17
+## 2018.3.18
 
 76. Length of Last Word 【easy】
 77. Plus One 【easy】
@@ -133,7 +133,7 @@
 83. Same Tree 【easy】
 84. Binary Tree Level Order Traversal 【median】 
 
-## 2018.3.17
+## 2018.3.19
 
 85. Binary Tree Zigzag Level Order Traversal 【median】
 86. Construct Binary Tree from Preorder and Inorder Traversal 【median】
@@ -142,7 +142,7 @@
 89. Path Sum 【easy】
 90. Path Sum II 【median】
 
-## 2018.3.18
+## 2018.3.20
 
 91. Flatten Binary Tree to Linked List 【median】
 92. Populating Next Right Pointers in Each Node 【median】
@@ -153,7 +153,7 @@
 97. Best Time to Buy and Sell Stock III 【hard】
 98. Word Ladder 【median】
 
-## 2018.3.18
+## 2018.3.21
 
 99. Sum Root to Leaf Numbers 【median】
 100. Surrounded Regions 【median】
@@ -162,7 +162,7 @@
 103. Gas Station 【median】
 104. Single Number 【easy】
 
-## 2018.3.19
+## 2018.3.22
 
 105. Single Number II 【median】
 106. Copy List with Random Pointer 【median】
@@ -171,3 +171,9 @@
 109. Linked List Cycle II 【median】
 110. Reorder List 【median】
 111. Binary Tree Preorder Traversal 【median】
+
+## 2018.3.23
+
+112. Insertion Sort List
+113. Sort List 
+114. Evaluate Reverse Polish Notation
