@@ -174,6 +174,6 @@
 
 ## 2018.3.23
 
-112. Insertion Sort List
-113. Sort List 
-114. Evaluate Reverse Polish Notation
+112. Insertion Sort List 【median】
+113. Sort List 【median】
+114. Evaluate Reverse Polish Notation 【median】
