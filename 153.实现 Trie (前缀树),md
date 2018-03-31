@@ -1,0 +1,73 @@
+# 实现 Trie (前缀树)
+
+实现一个 Trie (前缀树)，包含 insert, search, 和 startsWith 这三个方法。
+
+```py
+class Node:
+    def __init__(self):
+        self.val=None
+        self.next=[False]*26
+
+class Trie:
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.root=Node()
+        
+
+    def insert(self, word):
+        """
+        Inserts a word into the trie.
+        :type word: str
+        :rtype: void
+        """
+        def _insert(root,word,d):
+            if d==len(word):
+                root.val=word
+                return
+            else:
+                root.next[ord(word[d])-97]=Node()
+                _insert(root.next[ord(word[d])-97],word,d+1)
+        _insert(self.root,word,0)
+                
+    def search(self, word):
+        """
+        Returns if the word is in the trie.
+        :type word: str
+        :rtype: bool
+        """
+        def _search(root,word,d):
+            if d!=len(word):
+                if root.next[ord(word[d])-97] is not False:
+                    _search(root.next[ord(word[d])-97],word,d+1)
+                else:
+                    return False
+            else:
+                if root.val is not None:
+                    return True
+                else:
+                    return False
+        return _search(self.root,word,0)
+            
+    def startsWith(self, prefix):
+        """
+        Returns if there is any word in the trie that starts with the given prefix.
+        :type prefix: str
+        :rtype: bool
+        """
+        def _startsWith(root,word,d):
+            if d!=len(word):
+                if root.next[ord(word[d])-97] is not False:
+                    _startsWith(root.next[ord(word[d])-97],word,d+1)
+                else:
+                    return False
+            else:
+                return True
+        return _startsWith(self.root,prefix,0)                          
+# Your Trie object will be instantiated and called as such:
+# obj = Trie()
+# obj.insert(word)
+# param_2 = obj.search(word)
+# param_3 = obj.startsWith(prefix)
+```
