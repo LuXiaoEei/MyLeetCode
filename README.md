@@ -261,3 +261,13 @@
 ## 2018.4.3
 
 167. 汇总范围 【median】
+
+## 2018.4.4
+
+168. 二叉搜索树中第K小的元素 【median】
+
+## 2018.4.5
+
+169. Different Ways to Add Parentheses 【median】
+170. 丑数【easy】
+171. 丑数 II 【median】
