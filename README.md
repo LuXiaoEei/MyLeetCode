@@ -271,3 +271,8 @@
 169. Different Ways to Add Parentheses 【median】
 170. 丑数【easy】
 171. 丑数 II 【median】
+
+## 2018.4.7
+172. 除自身以外数组的乘积 【median】
+173. H指数 【median】
+174. H指数II 【median】
