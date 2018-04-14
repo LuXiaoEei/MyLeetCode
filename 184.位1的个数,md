@@ -1,0 +1,24 @@
+# 位1的个数
+
+编写一个函数，输入是一个无符号整数，返回的是它所有 位1 的个数（也被称为汉明重量）。
+
+例如，32位整数 '11' 的二进制表示为 00000000000000000000000000001011，所以函数返回3。
+
+可以 Think of a number in binary n = XXXXXX1000, n - 1 is XXXXXX0111. n & (n - 1) will be XXXXXX0000 which is just cancel the last 1
+
+Using bit operation to cancel a 1 in each round
+
+```py
+class Solution(object):
+    def hammingWeight(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        res=0
+        while n!=0:
+            if n%2==1:
+                res+=1
+            n//=2
+        return res
+```
